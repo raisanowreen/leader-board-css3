@@ -15,8 +15,9 @@ body{
     height: 679px;
     align-items: center;
     position: absolute;
-    left: 285px;
+    left: 25%;
     padding: 33px;
+    border-radius: 10px;
 }
 h2{
     color: #562EFF;
@@ -70,3 +71,52 @@ height: 117px;
 /* --------- 
         blog styles end
         ---------  */
+        /* -------- 
+                latest courses start
+                ---------  */
+.latest-courses{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 870px;
+    top: 780px;
+    left: 25%;
+    padding: 33px;
+    border-radius: 10px;
+}
+.display{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 28px;
+}
+.course-one img{
+    width: 224px;
+height: 104px;
+}
+/* ------- 
+         icon styles
+               --------- */
+.icon-ratings{
+    display: flex;
+}
+.icon-ratings i{
+    left: 0;
+    right: 72.14%;
+    padding-top: 8.5%;
+}
+.icon-ratings h3{
+    padding-left: 3%;
+    padding-right: 4%;
+}
+.fa-star{
+    color: yellow;
+}
+#last-star{
+    color: thistle;
+}
+.bg-icon{
+    background-color: coral;
+    border-radius: 20px;
+}
+/* -------- 
+                latest courses end
+                ---------  */
